@@ -2,8 +2,8 @@ package ua.foxminded;
 
 public class Reverse {
 
-    static final private String SELECT_ALL_SYMBOLS_EXCEPT_ENG_LETTERS_FILTER = "[^A-Z, ^a-z]";
-    static final private String WORD_SEPARATOR = " ";
+    private static final String SELECT_ALL_SYMBOLS_EXCEPT_ENG_LETTERS_FILTER = "[^A-Z, ^a-z]";
+    private static final  String WORD_SEPARATOR = " ";
 
     public static String reverseWord(String input) {
 
